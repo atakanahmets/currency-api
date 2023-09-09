@@ -3,7 +3,7 @@ from datetime import datetime, date
 
 class CurrencyConverter:
     def __init__(self):
-        self.api_key = '51ee8245f3cdf838bb67d7578dc6854f'  # API KEY 
+        self.api_key = 'APIKEY'  # API KEY 
         self.url = f'http://api.exchangeratesapi.io/v1/latest?access_key={self.api_key}'
         self.output = {}
         self.file_name = datetime.now().strftime('%d %b - %Y')

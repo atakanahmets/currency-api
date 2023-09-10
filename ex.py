@@ -34,9 +34,7 @@ class CurrencyConverter:
             for currency, rate in self.output['rates'].items():
                 print(f"{currency}: {rate}")
 
-    def nowt(self):
-        today = date.today()
-        print(today)
+    
 
 converter = CurrencyConverter()
 converter.do_request()
